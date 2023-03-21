@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .App-logo {
@@ -36,7 +38,8 @@
     transform: rotate(360deg);
   }
 }
-.contaner{
+.container{
+
   background-color: coral;
   border-radius: 20px;
   margin: 10px;
